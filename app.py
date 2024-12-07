@@ -10,5 +10,9 @@ def hello_world():
 def uic_func():
     return 'UIC'
 
+@app.route('/uic2')
+def uic_func2():
+    return 'UIC2'
+
 if __name__ == '__main__':
     app.run(debug=True)
